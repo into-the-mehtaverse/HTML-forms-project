@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Favorite Languages Form</title>
+</head>
+<body>
+    <h1>Favorite Languages Form</h1>
+    <form action="/fav_lang_url" method="post">
+        <fieldset>
+            <legend>Add User</legend>
+            <div>
+                <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="first_name">
+            </div>
+            <div>
+                <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="last_name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="status">Status</label>
+                <select id="status" name="status">
+                    <option value="Student">Student</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Guest">Guest</option>
+                </select>
+            </div>
+            <div>
+                <p>Choose your favorite programming language</p>
+                <label for="option1">HTML</label>
+                    <input type="radio" id="option1" name="choice">
+                <label for="option2">CSS</label>
+                    <input type="radio" id="option2" name="choice">
+                <label for="option3">JavaScript</label>
+                    <input type="radio" id="option3" name="choice">
+            </div>
+            <div>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+            <div>
+                <label for="signUp">Sign up for newsletter</label>
+                <input type="checkbox" id="signUp" name="sign_Up">
+            </div>
+            <div>
+                <label for="terms">Agree to terms and conditions</label>
+                    <input type="checkbox" id="terms" name="terms">
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
